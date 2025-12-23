@@ -3,56 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supplementary Movies</title>
+    <title>Supplementary Movies - Cell Differentiation</title>
     <style>
         body { font-family: sans-serif; margin: 20px; line-height: 1.6; }
         video { max-width: 100%; height: auto; display: block; margin-bottom: 20px; border: 1px solid #ccc; }
-        h1, h2 { color: #333; }
-        .container { max-width: 900px; margin: auto; }
-        .paper-link { margin-top: 30px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        h1 { color: #333; font-size: 24px; margin-bottom: 10px;}
+        h2 { color: #555; font-size: 18px; margin-top: 30px; }
+        .container { max-width: 900px; margin: auto; padding-bottom: 50px; }
+        .intro-text { font-size: 1.1em; margin-bottom: 30px; }
+        .paper-link { display: inline-block; margin-top: 30px; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;}
         .paper-link:hover { background-color: #0056b3; }
     </style>
 </head>
 <body>
     <div class="container">
-        <p>This page provides supplementary movies for our paper: "Cell differentiation can underpin reproducible Morphogenesis".</p>
+        <!-- FIXED: Added H1 for the visible title -->
+        <h1>Supplementary Material</h1>
+        
+        <p class="intro-text">
+            This page provides supplementary movies for our paper:<br> 
+            <strong>"Cell differentiation can underpin reproducible Morphogenesis"</strong>.
+        </p>
 
+        <!-- FIXED: Updated to look for .mp4 files and correct MIME types -->
+        
         <h2>Movie S1: Morphology-1 development for the 12,000 DTS.</h2>
-        <video controls autoplay muted loop>
-            <source src="Movie-S1.mov" type="video/mov">
+        <video controls autoplay muted loop playsinline>
+            <source src="Movie-S1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h2>Movie S2: Morphology-2 development for the 12,000 DTS.</h2>
-        <video controls>
-            <source src="Movie-S2.mov" type="video/mov">
+        <video controls playsinline>
+            <source src="Movie-S2.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h2>Movie S3: Morphology-6 development for the 12,000 DTS.</h2>
-        <video controls>
-            <source src="Movie-S3.mov" type="video/mov">
+        <video controls playsinline>
+            <source src="Movie-S3.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h2>Movie S4: Morphology-11 development for the 12,000 DTS.</h2>
-        <video controls>
-            <source src="Movie-S4.mov" type="video/mov">
+        <video controls playsinline>
+            <source src="Movie-S4.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h2>Movie S5: Development of a morphology that creates its shape via cell death for the 12,000 DTS.</h2>
-        <video controls>
-            <source src="Movie-S5.mov" type="video/mov">
+        <video controls playsinline>
+            <source src="Movie-S5.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h2>Movie S6: Development of a morphology that branches for the 12,000 DTS.</h2>
-        <video controls>
-            <source src="Movie-S6.mov" type="video/mov">
+        <video controls playsinline>
+            <source src="Movie-S6.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>      
-
 
         <a href="https://arxiv.org/abs/YOUR-ARXIV-ID" target="_blank" class="paper-link">Read the Full Paper on arXiv</a>
     </div>
